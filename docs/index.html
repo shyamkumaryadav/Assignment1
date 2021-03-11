@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="The landing page will consist of a dropdown/select menu, at the top, containing all the Indian state names in lexicographical order ( Karnataka, Maharashtra, Tamil Nadu, etc…)."><title>Indian Football Clubs</title><style>body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }</style><link href="/Assignment1/static/css/chunk-vendors.d2a37789.css" rel="preload" as="style"><link href="/Assignment1/static/js/app.7ad99718.js" rel="preload" as="script"><link href="/Assignment1/static/js/chunk-vendors.9e25f497.js" rel="preload" as="script"><link href="/Assignment1/static/css/chunk-vendors.d2a37789.css" rel="stylesheet"></head><body onload="onLoad()"><noscript><strong>We're sorry but Indian Football Clubs doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><nav><div class="nav-wrapper darken-4" style="background-color: #4f4a4c;" id="nav"><a href="#!" class="brand-logo">Indian Football Clubs</a></div></nav><main><div id="app"></div></main><footer class="page-footer darken-4" style="background-color: #4f4a4c;" id="footer"><div class="container"><div class="row"><div class="col l6 s12"><h5 class="white-text">Shyamkumar Yadav</h5><div class="input-field col s6"><input id="color" type="color" oninput="colorChange(event)"><script>function colorChange(event){
+                  localStorage.setItem('color', event.target.value)
+                  document.getElementById('nav').style.backgroundColor = event.target.value
+                  document.getElementById('footer').style.backgroundColor = event.target.value
+                }
+
+                function onLoad(){
+                  let color = localStorage.getItem('color')
+                  if (color){
+                    document.getElementById('color').value = color
+                    document.getElementById('nav').style.backgroundColor = color
+                    document.getElementById('footer').style.backgroundColor = color
+                  }
+                }</script></div></div><div class="col l4 offset-l2 s12"><h5 class="white-text">Links</h5><ul><li><a class="grey-text text-lighten-3" href="https://www.github.com/shyamkumaryadav/">Github</a></li><li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/shyamkumaryadav/">Linkedin</a></li><li><a class="grey-text text-lighten-3" href="https://www.instagram.com/ishyamkumaryadav">Instagram</a></li><li><a class="grey-text text-lighten-3" href="https://twitter.com/shyamkumaryada">Twitter</a></li><li><a class="grey-text text-lighten-3" href="https://www.facebook.com/ishyamkumaryadav">Facebook</a></li></ul></div></div></div><div class="footer-copyright"><div class="container center">© 2021 Copyright by Shyamkumar yadav</div></div></footer><script src="/Assignment1/static/js/chunk-vendors.9e25f497.js"></script><script src="/Assignment1/static/js/app.7ad99718.js"></script></body></html>
